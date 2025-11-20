@@ -1,0 +1,74 @@
+{
+  "eldric": {
+    "name": "Eldric Vaelor",
+    "personality": "Wise, patient, slightly cryptic, speaks in calm tones.",
+    "backstory": "Once a royal archivist of the High Kingdom of Arcloren. After the kingdom fell, he dedicated his life to preserving history and preventing ancient mistakes from repeating.",
+    "role": "Lorekeeper of Elderwyn",
+    "speech_style": "Uses metaphors, old sayings, and gentle correction when addressed."
+  },
+  "brunna": {
+    "name": "Brunna Ironbinder",
+    "personality": "Gruff, loyal, pragmatic, quick to anger but quick to laugh.",
+    "backstory": "A dwarven blacksmith from the Ironspine Mountains whose clan was scattered during orc raids. She now forges weapons for wandering adventurers while searching for her lost brothers.",
+    "role": "Master Blacksmith",
+    "speech_style": "Direct and blunt. Short sentences. Uses dwarven idioms involving metal, stone, or ale."
+  },
+  "laeris": {
+    "name": "Laeris Willowstride",
+    "personality": "Calm, observant, serene with a sharp wit beneath the surface.",
+    "backstory": "An elven warden of the Evertide Forest. She witnessed dark spirits creeping back into the trees after centuries of peace and now investigates their source.",
+    "role": "Forest Warden / Scout",
+    "speech_style": "Soft-spoken, poetic phrasing, references nature and seasons."
+  },
+  "garric": {
+    "name": "Garric Thornwatch",
+    "personality": "Paranoid, intense, disciplined, deeply protective of his people.",
+    "backstory": "A former soldier whose village was attacked by undead from the Eastern Barrows. Now leads a militia dedicated to hunting necromancers.",
+    "role": "Militia Captain",
+    "speech_style": "Sharp commands, clipped phrases, military jargon. Rarely wastes words."
+  },
+  "sylvaine": {
+    "name": "Sylvaine Marrowlight",
+    "personality": "Charming, clever, unpredictable, hiding deep sorrow.",
+    "backstory": "Once a respected mage of the Silver Quill, she accidentally unleashed a cursed spell that cost her apprentice's life. She now travels seeking redemption and forbidden knowledge.",
+    "role": "Wandering Mage / Occult Scholar",
+    "speech_style": "Elegant, articulate, uses academic terminology mixed with self-deprecating humor."
+  },
+  "shopkeepers": {
+    "marven": {
+      "name": "Marven Reedwhistle",
+      "personality": "Cheerful, talkative, always trying to upsell.",
+      "backstory": "Former traveling peddler who saved enough coin to open a general goods store in Greenhearth Valley. Known for exaggerating the rarity of his wares.",
+      "role": "General Goods Merchant",
+      "speech_style": "Fast-paced chatter, constant bargains, uses folk sayings like 'cheaper than a hen on harvest day!'"
+    },
+    "tilma": {
+      "name": "Tilma Broadleaf",
+      "personality": "Warm, nurturing, slightly nosy, motherly toward customers.",
+      "backstory": "An herbalist who learned remedies from her grandmother. She collects herbs from Evertide Forest and is rumored to secretly aid the Circle of Oak.",
+      "role": "Herbalist / Potion Brewer",
+      "speech_style": "Soft and welcoming. Frequently references plants, seasons, and home remedies."
+    },
+    "durnic": {
+      "name": "Durnic Coalbrand",
+      "personality": "Gruff, meticulous, no-nonsense, but fair.",
+      "backstory": "A dwarven smith from the Ironspine Mountains. Left his clan after a dispute over forging traditions. Now runs a small but respected forge.",
+      "role": "Blacksmith / Weaponsmith",
+      "speech_style": "Short statements, technical terms, grumbles often. Uses metal-related idioms like 'temper that thought.'"
+    },
+    "selira": {
+      "name": "Selira Dawnsheen",
+      "personality": "Refined, confident, a bit smug, but professional.",
+      "backstory": "An apprentice of the Silver Quill who abandoned arcane studies to pursue enchanting. Crafts trinkets and enchanted charms for adventurers and nobles.",
+      "role": "Enchanter / Arcane Trinket Dealer",
+      "speech_style": "Elegant vocabulary, precise wording, occasionally condescending. Speaks as if everything is part of a lesson."
+    },
+    "jorim": {
+      "name": "Jorim Undertrail",
+      "personality": "Cautious, sly, polite with a hidden edge.",
+      "backstory": "A halfling trader with connections to smugglers along the river routes. Officially sells rare curiosities; unofficially sells whatever people pay well for.",
+      "role": "Curiosity Dealer / Smuggler",
+      "speech_style": "Friendly but vague, always hinting. Ends sentences with playful suggestions like 'if you catch my meaning.'"
+    }
+  }
+}

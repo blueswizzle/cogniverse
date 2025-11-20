@@ -1,0 +1,93 @@
+{
+  "world_name": "Elderwyn",
+  "era": "The Age of Shattered Thrones",
+  "history": {
+    "summary": "Elderwyn was once unified under the High Kingdom of Arcloren, but following the Great Barrow War and the fall of the royal bloodline, the realm broke into feuding territories. Ancient magic stirs again as old powers awaken beneath forgotten ruins.",
+    "timeline": [
+      {
+        "era": "The Founding of Arcloren",
+        "details": "The first High King united the human clans, dwarven holds, and elven courts into a single realm of peace backed by the Arcloren Pact."
+      },
+      {
+        "era": "The Great Barrow War",
+        "details": "Necromantic cults rose from the Eastern Barrows, unleashing undead armies that ravaged the kingdom. Victory came at the cost of the royal family's extinction."
+      },
+      {
+        "era": "The Age of Shattered Thrones",
+        "details": "Without an heir, the realm fractured into quarrelling kingdoms. Old alliances broke, and forgotten magic re-emerged as warlords, nobles, and guilds compete for power."
+      }
+    ]
+  },
+  "geography": {
+    "Greenhearth Valley": "A fertile region once considered the breadbasket of Arcloren. Now contested by rival barons.",
+    "The Ironspine Mountains": "Home to deep dwarven citadels, rich mines, and ancient beasts that dwell in abandoned tunnels.",
+    "Evertide Forest": "A vast, enchanted woodland where the Glade Elves reside. Outsiders rarely leave without being changed by the forest’s magic.",
+    "The Eastern Barrows": "Grim burial mounds where necromancers once raised armies. Many barrows remain sealed… others do not."
+  },
+  "factions": {
+    "Arcloren Remnant": {
+      "description": "Knights, scholars, and loyalists who still believe the High Kingdom can be restored.",
+      "motives": "Find a lost heir, real or symbolic, to reunify Elderwyn.",
+      "current_status": "Respected but weakened; their strongholds hold only a fraction of their former glory."
+    },
+    "The Black Ash Legion": {
+      "description": "Mercenary warbands formed from deserters, criminals, and exiled warriors. Feared for their brutality.",
+      "motives": "Seize land and power by force; many leaders aim to crown themselves king.",
+      "current_status": "Their influence is spreading across battle-scarred regions."
+    },
+    "The Circle of Oak": {
+      "description": "A druidic order tied to ancient natural magic. They guard sacred groves and ancient forest spirits.",
+      "motives": "Prevent the reckless spread of war that threatens the wilds.",
+      "current_status": "Respected by many rural folk, distrusted by nobles."
+    },
+    "Guild of the Silver Quill": {
+      "description": "An influential mage guild dedicated to rediscovering lost spells and pre-Barrow War lore.",
+      "motives": "Recover forbidden magical texts to restore arcane mastery.",
+      "current_status": "Growing quickly, but their experiments often provoke fear and suspicion."
+    }
+  },
+  "mythology": {
+    "The Old Gods": {
+      "description": "Ancient deities once worshipped before the rise of Arcloren — gods of earth, storm, hunt, death, and fire.",
+      "current_beliefs": [
+        "Some rural folk still make offerings at old-standing stones.",
+        "Nobles consider the Old Gods superstition… until strange omens appear."
+      ]
+    },
+    "The Barrow Lords": {
+      "description": "Legendary necromancers who ruled the Eastern Barrows centuries ago. Their spirits were believed destroyed, but their names linger on grim tombs.",
+      "rumors": [
+        "Some say one Barrow Lord never died.",
+        "Others claim a new cult works to resurrect them."
+      ]
+    },
+    "The Forgeheart Relic": {
+      "description": "A mythical dwarven artifact said to grant unmatched craftsmanship and power when wielded by a worthy ruler.",
+      "significance": "Many dwarven clans search tirelessly for it, hoping it can unite their fractured people."
+    }
+  },
+  "playable_races": {
+    "Humans": {
+      "description": "Adaptable and ambitious, found in every corner of Elderwyn.",
+      "traits": ["Versatility", "Political influence", "Balanced abilities"]
+    },
+    "Dwarves": {
+      "description": "Stoic mountainfolk known for metalwork, runes, and deep traditions.",
+      "traits": ["Durability", "Rune-forging", "Resistance to poison"]
+    },
+    "Elves": {
+      "description": "Graceful spell-touched beings from the deep forests, long-lived and attuned to nature.",
+      "traits": ["Heightened senses", "Affinity for bow and spellcraft"]
+    },
+    "Half-Orcs": {
+      "description": "Strong warriors born of human and orc heritage, often misunderstood but formidable.",
+      "traits": ["Strength", "Survival instincts", "Fearsome presence"]
+    }
+  },
+  "adventure_hooks": [
+    "A noble’s son has disappeared after exploring a newly unearthed barrow.",
+    "A village accuses the Circle of Oak of stealing their livestock, but the truth is far darker.",
+    "The Silver Quill discovers a spell sealed since the Barrow War — and now something hunts anyone who has read it.",
+    "A warlord of the Black Ash Legion claims to possess the Forgeheart Relic."
+  ]
+}
