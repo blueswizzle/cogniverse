@@ -32,4 +32,4 @@ Respond in character. Stay consistent with lore, tone, and personality.
             ]
         )
 
-        return response.choices[0].message["content"]
+        return response.choices[0].message.content
