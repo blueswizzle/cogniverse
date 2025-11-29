@@ -1,9 +1,9 @@
 import json
 import uuid
+import re
 from typing import Dict
 from openai import OpenAI
 from src.config import OPENAI_API_KEY
-import re
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -38,8 +38,7 @@ Speech Style: {npc['speech_style']}
 World Lore:
 {self.lore.get('world_summary', 'No summary available')}
 
-Output the quest as a JSON object with these keys:
-- id: unique quest identifier
+Output the quest as a JSON object with these keys (but do NOT include the id key; we will generate it ourselves):
 - title: quest title
 - giver: NPC name
 - objectives: list of objectives with type, target/item, location, amount
@@ -59,23 +58,20 @@ Only output valid JSON.
         
         # Strip code fences if present
         quest_text = re.sub(r"^```(?:json)?|```$", "", quest_text, flags=re.MULTILINE).strip()
-        
-        # Log the raw GPT response for debugging
-        # print("=== GPT Raw Response ===")
-        # print(quest_text)
-        # print("========================")
 
         try:
             quest = json.loads(quest_text)
         except json.JSONDecodeError:
             # fallback in case AI outputs invalid JSON
             quest = {
-                "id": str(uuid.uuid4()),
                 "title": f"{npc['name']}'s Quest",
                 "giver": npc['name'],
                 "objectives": [],
                 "rewards": {},
                 "dialogue": f"{npc['name']}: I need your help with something urgent."
             }
+
+        # Generate a random ID for every new quest
+        quest['id'] = str(uuid.uuid4())
 
         return quest
