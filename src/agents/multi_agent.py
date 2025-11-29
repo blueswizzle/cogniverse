@@ -1,5 +1,5 @@
-from .creator_agent import CreatorAgent
-from .review_agent import LoreReviewerAgent, ToneReviewerAgent
+from src.agents.creator_agent import CreatorAgent
+from src.agents.review_agent import LoreReviewerAgent, ToneReviewerAgent
 
 class MultiAgentPipeline:
     def __init__(self, npc_profile, lore):

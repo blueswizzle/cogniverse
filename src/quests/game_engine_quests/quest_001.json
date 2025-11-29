@@ -1,0 +1,34 @@
+{
+    "id": "quest_001",
+    "title": "Bargain of the Lost Goods",
+    "giver": "Marven Reedwhistle",
+    "objectives": [
+        {
+            "type": "collect",
+            "target": "Mystical Herbs",
+            "location": "Whispering Woods",
+            "amount": 5
+        },
+        {
+            "type": "collect",
+            "target": "Rare Gemstones",
+            "location": "Cavern of Echoes",
+            "amount": 3
+        },
+        {
+            "type": "deliver",
+            "target": "Goods for the Festival",
+            "location": "Market Square",
+            "amount": 1
+        }
+    ],
+    "rewards": {
+        "xp": 150,
+        "gold": 100,
+        "items": [
+            "Merchant's Favor Token",
+            "Discount Voucher"
+        ]
+    },
+    "dialogue": "Hey there, friend! You look like someone who appreciates a good deal! I've got a small problem—some of my goods for the festival got lost in the woods! If you can help me gather some Mystical Herbs and Rare Gemstones, I’d surely make it worth your while! You know what they say, 'a penny saved is a penny earned!' What do you say? Let's make a bargain!"
+}
