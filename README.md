@@ -1,11 +1,15 @@
-# Cogniverse — AI-Driven NPCs & Dynamic Quests
+# Cogniverse
 
-**Cogniverse** is a prototype RPG engine that demonstrates AI-driven NPC interactions, dynamic quest generation, and memory management. 
-This project leverages OpenAI's GPT models to create immersive, context-aware NPCs that remember past interactions and generate quests dynamically based on world lore.
+Cogniverse is a virtual startup redefining how video game worlds evolve by embedding Generative Intelligence into the heart of RPGs and open-world games. Modern games, though vast and beautifully handcrafted, remain static once players complete their scripted content, forcing studios to invest heavily in post-launch updates to sustain engagement. 
+Cogniverse addresses this limitation by introducing a generative system that dynamically creates lore-consistent quests, dialogue, characters, and world events, expanding each game’s world intelligently and endlessly. 
 
+At its core, Cogniverse uses multi-agent generative AI that learns from the game’s existing lore and artistic design, ensuring all new content aligns with its established tone and world rules. This solution directly enhances the design, development, and maintenance stages of the Software Development Lifecycle by automating content creation, augmenting creative design, and enabling worlds that continuously grow long after release.
+
+**NOTE**
+This is an early prototype (MVP). It demonstrates core AI-driven concepts like NPC conversations, memory, and quest generation, but it is nowhere near a finished product. Features are limited, integrations with actual game engines are minimal, and stability/performance has not been fully tested.
 ---
 
-## Features
+## Implemented Features
 
 ### 1. AI NPC Conversations
 - NPCs respond in-character based on personality, backstory, and speech style.
