@@ -1,34 +1,34 @@
 {
     "id": "quest_001",
-    "title": "Bargain of the Lost Goods",
-    "giver": "Marven Reedwhistle",
+    "title": "Defend the Perimeter",
+    "giver": "Garric Thornwatch",
     "objectives": [
         {
-            "type": "collect",
-            "target": "Mystical Herbs",
-            "location": "Whispering Woods",
+            "type": "eliminate",
+            "target": "bandits",
+            "location": "Northern Woods",
             "amount": 5
         },
         {
             "type": "collect",
-            "target": "Rare Gemstones",
-            "location": "Cavern of Echoes",
+            "target": "bandit tokens",
+            "location": "Northern Woods",
             "amount": 3
         },
         {
-            "type": "deliver",
-            "target": "Goods for the Festival",
-            "location": "Market Square",
+            "type": "report",
+            "target": "Garric Thornwatch",
+            "location": "Village Center",
             "amount": 1
         }
     ],
     "rewards": {
-        "xp": 150,
-        "gold": 100,
+        "xp": 250,
+        "gold": 50,
         "items": [
-            "Merchant's Favor Token",
-            "Discount Voucher"
+            "Militia Medal",
+            "Bandit Repellent Potion"
         ]
     },
-    "dialogue": "Hey there, friend! You look like someone who appreciates a good deal! I've got a small problem—some of my goods for the festival got lost in the woods! If you can help me gather some Mystical Herbs and Rare Gemstones, I’d surely make it worth your while! You know what they say, 'a penny saved is a penny earned!' What do you say? Let's make a bargain!"
+    "dialogue": "Listen up! We've got intel on bandit movements in the Northern Woods. Eliminate five of them, and bring me three of their tokens. Report back when it's done. Stay sharp."
 }
