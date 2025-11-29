@@ -5,7 +5,8 @@ Cogniverse addresses this limitation by introducing a generative system that dyn
 
 At its core, Cogniverse uses multi-agent generative AI that learns from the game’s existing lore and artistic design, ensuring all new content aligns with its established tone and world rules. This solution directly enhances the design, development, and maintenance stages of the Software Development Lifecycle by automating content creation, augmenting creative design, and enabling worlds that continuously grow long after release.
 
-**NOTE**
+**--NOTE--**
+
 This is an early prototype (MVP). It demonstrates core AI-driven concepts like NPC conversations, memory, and quest generation, but it is nowhere near a finished product. Features are limited, integrations with actual game engines are minimal, and stability/performance has not been fully tested.
 ---
 
