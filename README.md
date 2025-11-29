@@ -1,25 +1,29 @@
 # Cogniverse
 
-Cogniverse is a virtual startup redefining how video game worlds evolve by embedding Generative Intelligence into the heart of RPGs and open-world games. Modern games, though vast and beautifully handcrafted, remain static once players complete their scripted content, forcing studios to invest heavily in post-launch updates to sustain engagement. 
-Cogniverse addresses this limitation by introducing a generative system that dynamically creates lore-consistent quests, dialogue, characters, and world events, expanding each game’s world intelligently and endlessly. 
+Cogniverse is a virtual startup redefining how video game worlds evolve by embedding Generative Intelligence into the heart of RPGs and open-world games. Modern games, though vast and beautifully handcrafted, remain static once players complete their scripted content, forcing studios to invest heavily in post-launch updates to sustain engagement.  
 
-At its core, Cogniverse uses multi-agent generative AI that learns from the game’s existing lore and artistic design, ensuring all new content aligns with its established tone and world rules. This solution directly enhances the design, development, and maintenance stages of the Software Development Lifecycle by automating content creation, augmenting creative design, and enabling worlds that continuously grow long after release.
+Cogniverse addresses this limitation by introducing a generative system that dynamically creates lore-consistent quests, dialogue, characters, and world events, expanding each game’s world intelligently and endlessly.  
 
-**--NOTE--**
+At its core, Cogniverse uses multi-agent generative AI that learns from the game’s existing lore and artistic design, ensuring all new content aligns with the established tone and rules of the game world. This solution directly enhances the design, development, and maintenance stages of the Software Development Lifecycle by automating content creation, augmenting creative design, and enabling worlds that continuously grow long after release.
 
-This is an early prototype (MVP). It demonstrates core AI-driven concepts like NPC conversations, memory, and quest generation, but it is nowhere near a finished product. Features are limited, integrations with actual game engines are minimal, and stability/performance has not been fully tested.
+---
+
+## Note
+
+This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts like NPC conversations, memory, and quest generation, but it is **nowhere near a finished product**. Features are limited, integrations with actual game engines are minimal, and stability/performance has not been fully tested.  
+
 ---
 
 ## Implemented Features
 
 ### 1. AI NPC Conversations
-- NPCs respond in-character based on personality, backstory, and speech style.
+- NPCs respond **in-character** based on personality, backstory, and speech style.
 - Multi-agent pipeline:
   - **Creator Agent** generates initial NPC responses.
   - **Lore Reviewer** checks consistency with world lore.
   - **Tone Reviewer** ensures NPC personality is preserved.
 - Players can interact with NPCs via console chat.
-- Commands:
+- **Commands**:
   - `!memory` — view short-term and long-term memory.
   - `!clear` — reset memory (short or long-term).
 
@@ -30,9 +34,9 @@ This is an early prototype (MVP). It demonstrates core AI-driven concepts like N
 
 ### 3. Dynamic Quest Generation
 - AI generates quests for NPCs based on:
-  - NPC personality, role, and backstory.
-  - World lore.
-- Quest output is JSON-compatible and includes:
+  - NPC personality, role, and backstory
+  - World lore
+- Quest output is **JSON-compatible** and includes:
   - Unique `id` (UUID)
   - Title
   - Quest giver
