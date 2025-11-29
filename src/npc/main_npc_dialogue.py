@@ -1,15 +1,17 @@
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-from lore_loader import load_lore, load_npc_profiles
-from agents.multi_agent import MultiAgentPipeline
+from ..lore_loader import load_lore, load_npc_profiles
+from ..agents.multi_agent import MultiAgentPipeline
 
 def main():
     lore = load_lore()
     npcs = load_npc_profiles()
+    
+    npc_name = "laeris"
 
-    pipeline = MultiAgentPipeline(npcs["laeris"], lore)
+    pipeline = MultiAgentPipeline(npcs[npc_name], lore)
 
-    print("Chat with Laeris — type 'quit' to exit\n")
+    print(f"Chat with {npc_name} — type 'quit' to exit\n")
 
     while True:
         player = input("You: ")

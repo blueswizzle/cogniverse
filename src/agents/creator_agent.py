@@ -1,7 +1,6 @@
-# creator_agent.py
 from openai import OpenAI
-from config import OPENAI_API_KEY
-from vector_store import retrieve_context
+from ..config import OPENAI_API_KEY
+from ..vector_store import retrieve_context
 import json
 
 client = OpenAI(api_key=OPENAI_API_KEY)
