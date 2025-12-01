@@ -89,7 +89,7 @@ This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts li
       }
      ```
 ### 5. Unity Integration Example
-- Under the folder **game_client/unity** contains a file showcasing how a Unity project can interact with the Cogniverse FastAPI backend.
+- Under the folder ***game_client/unity*** contains a file showcasing how a Unity project can interact with the Cogniverse FastAPI backend.
 - This file serves as a reference implementation for integrating Cogniverse into any game engine using API calls.
 
 ## Getting Started
