@@ -88,7 +88,9 @@ This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts li
       "id": "83e8eadd-6238-419f-9bbd-a2c1149edf6a"
       }
      ```
-  
+### 5. Unity Integration Example
+- Under the folder **game_client/unity** contains a file showcasing how a Unity project can interact with the Cogniverse FastAPI backend.
+- This file serves as a reference implementation for integrating Cogniverse into any game engine using API calls.
 
 ## Getting Started
 
@@ -121,3 +123,11 @@ pip install -r requirements.txt
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 ```
+### 6. Start the Rest Server
+- Open the terminal and enter:
+  ```bash
+  python -m src.api.server
+  ```
+- The rest server will start on localhost:8000 by default.
+### 7. Test the endpoints
+- Using a tool like Postman, you can now send requests to the endpoints for testing.
