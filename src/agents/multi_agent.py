@@ -15,18 +15,24 @@ class MultiAgentPipeline:
         # Include current memory in prompt
         short_mem = get_short_term(self.npc['name'])
         long_mem = get_long_term(self.npc['name'])
-        memory_context = ""
+
+        memory_context = "NPC Memory:\n"
+
         if short_mem:
-            memory_context += "Short-term memory:\n" + "\n".join(f"{k}: {v}" for k, v in short_mem.items()) + "\n"
+            memory_context += "Short-term facts:\n" + "\n".join(f"- {m}" for m in short_mem) + "\n"
+
         if long_mem:
-            memory_context += "Long-term memory:\n" + "\n".join(f"{k}: {v}" for k, v in long_mem.items()) + "\n"
+            memory_context += "Long-term knowledge:\n" + "\n".join(f"{k}: {v}" for k, v in long_mem.items()) + "\n"
 
         # --- Use AI to parse input into memory ---
         new_mem = parse_player_input_for_memory(self.npc['name'], player_input, memory_context)
-        for k, v in new_mem.get("short_term", {}).items():
-            add_short_term(self.npc['name'], k, v)
+
+        for fact in new_mem.get("short_term", []):
+            add_short_term(self.npc['name'], fact)
+
         for k, v in new_mem.get("long_term", {}).items():
             add_long_term(self.npc['name'], k, v)
+
 
         # Generate NPC reply with memory included
         draft = self.creator.generate(f"{player_input}\n\nNPC Memory Context:\n{memory_context}")

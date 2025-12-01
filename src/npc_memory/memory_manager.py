@@ -12,14 +12,14 @@ else:
     LONG_TERM_MEMORY = {}
 
 # --- Short-term memory ---
-def add_short_term(npc_name, key, value):
+def add_short_term(npc_name, value):
     npc_name = npc_name.lower()
     if npc_name not in SHORT_TERM_MEMORY:
-        SHORT_TERM_MEMORY[npc_name] = {}
-    SHORT_TERM_MEMORY[npc_name][key] = value
+        SHORT_TERM_MEMORY[npc_name] = []
+    SHORT_TERM_MEMORY[npc_name].append(value)
 
 def get_short_term(npc_name):
-    return SHORT_TERM_MEMORY.get(npc_name.lower(), {})
+    return SHORT_TERM_MEMORY.get(npc_name.lower(), [])
 
 def clear_short_term(npc_name):
     SHORT_TERM_MEMORY[npc_name.lower()] = {}
@@ -32,6 +32,8 @@ def add_long_term(npc_name, key, value):
     npc_name = npc_name.lower()
     if npc_name not in LONG_TERM_MEMORY:
         LONG_TERM_MEMORY[npc_name] = {}
+
+    # Only write if new or updated
     LONG_TERM_MEMORY[npc_name][key] = value
     save_long_term()
 

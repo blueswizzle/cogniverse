@@ -1,7 +1,6 @@
 from openai import OpenAI
 from src.config import OPENAI_API_KEY
 from src.vector_store import retrieve_context
-import json
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -38,9 +37,9 @@ Instructions:
 - Keep your response concise (1–3 sentences).  
 - Speak in-character and stay consistent with your personality and lore.  
 - Adjust tone based on player intent:
-  * Friendly → polite, helpful
-  * Neutral → neutral
-  * Threat / aggression → defensive, cautious, or evasive
+  * Friendly -> polite, helpful
+  * Neutral -> neutral
+  * Threat / aggression -> defensive, cautious, or evasive
 - If the topic is unknown, respond cautiously without inventing canonical facts.
 
 When the player is threatening:

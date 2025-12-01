@@ -1,9 +1,10 @@
 {
-    "garric thornwatch": {
-        "player_name": "Belmond",
-        "player_class": "spellsword"
-    },
-    "brunna ironbinder": {
-        "player_name": "Belmond"
+    "laeris willowstride": {
+        "name": "Belmond",
+        "race": "unknown",
+        "class": "spellword",
+        "permanent traits": [
+            "skilled in light magic"
+        ]
     }
 }

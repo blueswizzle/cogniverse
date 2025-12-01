@@ -2,9 +2,7 @@ import chromadb
 from chromadb.config import Settings
 from openai import OpenAI
 from .config import OPENAI_API_KEY
-from tqdm import tqdm
 import os
-import json
 
 # OpenAI client (same style as prior files)
 oai = OpenAI(api_key=OPENAI_API_KEY)

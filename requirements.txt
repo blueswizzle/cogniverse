@@ -2,3 +2,5 @@ openai>=1.0.0
 python-dotenv
 chromadb>=0.3.21
 tqdm
+fastapi>=0.115.0
+uvicorn[standard]>=0.23.0
