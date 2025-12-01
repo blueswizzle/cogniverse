@@ -90,3 +90,31 @@ This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts li
      ```
   
 
+## Getting Started
+
+Follow these steps to set up and run the Cogniverse prototype locally.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/cogniverse.git
+cd cogniverse
+```
+
+### 2. Create the python virtual environment
+```bash
+python3 -m venv .venv
+```
+### 3. Activate virtual environment
+- Windows:
+  ```bash
+  .venv\Scripts\Activate.ps1
+  ```
+- MacOS/Linux
+  ```bash
+  source .venv/bin/activate
+  ```
+### 4. Install required packages
+```bash
+pip install -r requirements.txt
+```
+### 5. 
