@@ -80,13 +80,13 @@ This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts li
    - **Response:**
      ```json
      {
-       "quest_id": "123e4567-e89b-12d3-a456-426614174000",
-       "title": "Rescue the Lost Merchant",
-       "giver": "laeris",
-       "objectives": ["Find the missing merchant in the forest", "Escort merchant safely to town"],
-       "rewards": ["100 gold", "Rare potion"],
-       "dialogue": ["Laeris: Traveler, can you help me with a problem?"]
-     }
+      "title": "Laeris Willowstride's Quest",
+      "giver": "Laeris Willowstride",
+      "objectives": [],
+      "rewards": {},
+      "dialogue": "Laeris Willowstride: I need your help with something urgent.",
+      "id": "83e8eadd-6238-419f-9bbd-a2c1149edf6a"
+      }
      ```
   
 
