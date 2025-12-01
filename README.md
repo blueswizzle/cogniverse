@@ -44,3 +44,49 @@ This is an **early prototype (MVP)**. It demonstrates core AI-driven concepts li
   - Rewards
   - Dialogue
 - Each quest is saved as a separate JSON file for use by a game engine.
+
+### 4. FastAPI REST Server
+- Includes a lightweight **FastAPI** server that exposes AI features to any game engine (Unity, Unreal, Godot, custom engines, etc.).
+- Available endpoints include:
+
+#### Endpoints
+
+1. **`POST /npc/chat`**  
+   - Send a message to an NPC and receive their AI-generated response.  
+   - **Request Body:**
+     ```json
+     {
+       "npc_name": "laeris",
+       "player_input": "Hello there, how are you?"
+     }
+     ```
+   - **Response:**
+     ```json
+     {
+       "npc_name": "laeris",
+       "player_input": "Hello there, how are you?",
+       "npc_reply": "I am well, traveler. What brings you to these woods?"
+     }
+     ```
+
+2. **`POST /quest/generate`**  
+   - Generate a dynamic quest for a specific NPC based on their personality, role, and world lore.  
+   - **Request Body:**
+     ```json
+     {
+       "npc_name": "laeris"
+     }
+     ```
+   - **Response:**
+     ```json
+     {
+       "quest_id": "123e4567-e89b-12d3-a456-426614174000",
+       "title": "Rescue the Lost Merchant",
+       "giver": "laeris",
+       "objectives": ["Find the missing merchant in the forest", "Escort merchant safely to town"],
+       "rewards": ["100 gold", "Rare potion"],
+       "dialogue": ["Laeris: Traveler, can you help me with a problem?"]
+     }
+     ```
+  
+
